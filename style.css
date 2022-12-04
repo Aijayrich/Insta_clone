@@ -7,13 +7,23 @@
     padding-bottom: 0;
     box-sizing: border-box;
     /* border: 2px solid black; */
+    color: rgb(5, 5, 5);
+    font-family: "Poppins", sans-serif;
   }
   
 .profile_img{
-    width: 64px;
-    height: 64px;
-    border-radius: 35px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
     text-align: center;
+}
+.profile_img2{
+width: 30px;
+height: 30px;
+border-radius: 50px;
+padding-top: px;
+padding-bottom: 0%;
+/* display:inline-block ; */
 }
 
 .post_image{
@@ -21,14 +31,13 @@
     height: 400px;
     box-sizing: border-box;
     padding-top: 50px;
-
-
+    align-items:center;
 }
 .logo {
-    margin-top: 8%;
-    width: 45%;
-    height: 6vh;
-    margin-left: 5%;
+    margin-top: 10px;
+    width: 90%;
+    height: 10vh;
+    margin-left: 0.5px;
     margin-bottom: 8px;
   }
 
@@ -44,6 +53,8 @@
     background-color: rgb(255, 255, 255);
     overflow-x: hidden;
     padding-top: 20px;
+    padding: 50px;
+    /* justify-content: space-between; */
 }
 
 /* main section */
@@ -51,12 +62,43 @@
     display: flex;
     justify-content: center; 
     gap: 40px;
+    background-color: rgb(247, 244, 240);
 }
 .post_image{
-    width: 500px;
+    width: 470px;
+    height: auto;
     border: 1px solid rgb(243, 220, 220);
-border-radius: 5px;
+border-radius: 8px;
 box-sizing: border-box;
+padding: 0px;
+margin-top: 15px;
+}
+
+.post_flex{
+    display: flex;
+    min-height: 40px;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-left: 10px;
+    /* min-height: 40px; */
+    /* padding-top: 10px; */
+    /* margin-top: 10px; */
+}
+
+.dot_gap{
+    margin-left:65%;
+}
+
+.name_gap{
+    margin-left: 1%; 
+}
+
+.bookmark_gap{
+    margin-left: 70%;
+}
+
+.post_margin{
+    padding-left: 8px;
 }
 /* status */
 .status_bar{
@@ -64,13 +106,17 @@ box-sizing: border-box;
     flex-direction: row;
     justify-content: space-between;
     border: 1px solid rgb(243, 220, 220);
-border-radius: 5px;
+border-radius: 8px;
 box-sizing: border-box;
+margin-bottom:0;
+margin-top: 16px;
+padding: 10px;
 }
 .flex_suggestions{
     display: flex;
     align-items: center;
     gap: 30px;
+    padding: 5px;
 }
 
 .more{
@@ -100,7 +146,18 @@ box-sizing: border-box;
   }
 
   .profile_name {
-    margin-top: 8px;
+    /* margin-top: 8px; */
     font-size: 13px;
     width: 80%;
+  }
+  .icons{
+    padding-top: 20px;
+  }
+  .follow{
+margin-left: 30px;
+color: #0094f7;
+font-weight: 600;
+font-size: 11px;
+
+
   }
