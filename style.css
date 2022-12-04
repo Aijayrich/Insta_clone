@@ -12,10 +12,11 @@
   }
   
 .profile_img{
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50px;
     text-align: center;
+    align-items: center;
 }
 .profile_img2{
 width: 30px;
@@ -158,6 +159,9 @@ margin-left: 30px;
 color: #0094f7;
 font-weight: 600;
 font-size: 11px;
+}
 
-
-  }
+.status_font{
+    font-size: 11px;
+ 
+}
