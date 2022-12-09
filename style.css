@@ -17,6 +17,8 @@
     border-radius: 50px;
     text-align: center;
     align-items: center;
+    outline-style:solid;
+    outline-color:rgb(199, 82, 150);
 }
 .profile_img2{
 width: 30px;
